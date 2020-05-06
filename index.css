@@ -1,0 +1,23 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+}
+
+.red {
+    background: #900;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.green {
+    background: #090;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.blue {
+    background: #009;
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
